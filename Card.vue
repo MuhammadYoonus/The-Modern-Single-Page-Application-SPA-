@@ -1,0 +1,1 @@
+import {defineStore} from 'pinia';export const useCart=defineStore('cart',{state:()=>({items:[]}),actions:{add(p){this.items.push(p);}}});
