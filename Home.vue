@@ -1,1 +1,0 @@
-import axios from 'axios';export const fetchPackages=async()=>{const r=await axios.get('https://dummyjson.com/products');return r.data.products;};export const loginUser=async(u,p)=>{const r=await axios.post('https://dummyjson.com/auth/login',{username:u,password:p});return r.data;};
