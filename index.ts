@@ -1,1 +1,0 @@
-<template><div class='min-h-screen bg-gray-100 dark:bg-gray-900 dark:text-white'><router-view/></div></template>
