@@ -1,1 +1,0 @@
-import {defineStore} from 'pinia';export const useAuth=defineStore('auth',{state:()=>({user:null}),actions:{login(d){this.user=d;localStorage.setItem('user',JSON.stringify(d));},logout(){this.user=null;localStorage.removeItem('user');},loadUser(){const u=localStorage.getItem('user');if(u)this.user=JSON.parse(u);}}});
